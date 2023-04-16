@@ -1,4 +1,4 @@
-h1 {
+h1 h2 h3{
     color: white;
 }
 
@@ -8,7 +8,7 @@ p {
     margin-left: 10px; 
 }
 
-#content1 {
+#content1, .minor-section{
     background-color: #A3C9A8;
     padding: 10px;
     margin: 10px;
