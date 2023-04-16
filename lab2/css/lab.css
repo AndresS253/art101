@@ -1,4 +1,4 @@
-h1 h2 h3{
+h1, h2, h3{
     color: white;
 }
 
@@ -8,7 +8,7 @@ p {
     margin-left: 10px; 
 }
 
-#content1, .minor-section{
+#content1 {
     background-color: #A3C9A8;
     padding: 10px;
     margin: 10px;
@@ -16,6 +16,16 @@ p {
     font-size: 20px;
     
 }
-h1,h2,h3 {
-    color: white;
-  }
+.minor-section{
+    background-color: #A3C9A8;
+    padding: 10px;
+    margin: 10px;
+    border: dotted 5px rgb(255, 174, 0);
+    font-size: 20px;
+}
+#content{
+    margin: 10px;
+    padding: 10px;
+    border: dotted 5px rgb(255, 174, 0);
+    background-color: rgb(66, 154, 66);
+}
