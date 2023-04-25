@@ -1,6 +1,6 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - rock, paper scissors pseudocode
+// Author: Andres Sanchez
+// Date:4/24/23
 
 // Constants
 
@@ -18,4 +18,16 @@ function main() {
 }
 
 // let's get this party started
+
+
+//Rock Paper Scissors Pseudocode
+//player one picks a rock paper or scissors 
+//player two picks a rock paper or scissors
+//both choices are revealed
+//winner is decided
+//win is counted to either player
+//loss is counted to either player
+//tie is counted as such for both
+//ask if you want to play again
+
 main();
