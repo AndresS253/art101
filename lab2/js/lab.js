@@ -14,7 +14,24 @@ function myFunction(param1, param2) {
 
 function main() {
   console.log("Main function started.");
-  // the code that makes everything happen
+  var outputEl = document.getElementById('content2')
+
+var buttonEl=document.createElement('button');
+
+buttonEl.innerHTML = 'press me!'
+
+buttonEl.setAttribute('id','my-button');
+
+outputEl.appendChild(buttonEl);
+
+
+
+
+buttonEl.addEventListener('click',function(){
+  var userName = window.prompt("Please enter the user's name: ");
+  outputEl.innerHTML = 'hello '+userName;
+})
+
 }
 
 // let's get this party started
